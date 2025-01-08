@@ -1,1 +1,32 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico"> <!-- Fallback for older browsers -->
+</head>
+<body>
+    <div class="timer-container">
+        <div class="mode-indicator">
+            <span id="mode-text">Work Time</span>
+        </div>
+        
+        <div class="time-display">
+            <span id="minutes">25</span>
+            <span class="colon">:</span>
+            <span id="seconds">00</span>
+        </div>
+        
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="toggle-mode">Rest</button>
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
